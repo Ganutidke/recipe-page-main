@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="/css/style.css">
+  <title>Frontend Mentor | Recipe page</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body class="bg-white outfit text-base">
+  <section class="flex lg:max-w-7xl lg:my-16 w-full mx-auto">
+
+    <div>
+      <div>
+        <img src="./assets/images/image-omelette.jpeg" alt="omelette Image" class="lg:rounded-2xl">
+      </div>
+      <div>
+
+        <!-- heading and description -->
+
+        <div class="mt-10  flex flex-col gap-6 mx-10 lg:mx-0">
+          <h1 class="young text-5xl">
+            Simple Omelette Recipe
+          </h1>
+          <p class="text-[#5f574e] text-2xl ">
+            An easy and quick dish, perfect for any meal. This classic omelette combines beaten eggs cooked
+            to perfection, optionally filled with your choice of cheese, vegetables, or meats.
+
+          </p>
+        </div>
+
+        <!-- Prepartion time  -->
+        <div class="mt-10 darkRaspberry  rounded-2xl p-8 flex flex-col gap-6 mx-10 lg:mx-0">
+          <div>
+            <strong class="text-[#7b284f] mb-4 text-xl">Preparation Time</strong>
+            <div class="text-[#5f574e] ml-10">
+              <ul class="text-lg list-disc	">
+                <li>
+                  <span class="text-[#784c3e] font-bold text-lg">
+                    Total:
+
+                  </span> Approximately 10 minutes
+                </li>
+                <li>
+                  <span class="text-[#784c3e] font-bold text-lg">
+                    Preparation:
+
+                  </span> 5 minutes
+                </li>
+                <li>
+                  <span class="text-[#784c3e] font-bold text-lg">
+                    Cooking:
+
+                  </span> 5 minutes
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- Ingredients -->
+
+        <div class="mt-10 pb-10 border-b border-[#854632]  flex flex-col gap-6 mx-10 lg:mx-0">
+          <strong class="young text-3xl font-medium text-[#854632] ">Ingredients</strong>
+          <ul class="text-[#5f574e] list-disc ml-5 flex flex-col gap-3">
+            <li>2-3 large eggs</li>
+            <li>Salt, to taste</li>
+            <li>Pepper, to taste</li>
+            <li>1 tablespoon of butter or oil</li>
+            <li>Optional fillings: cheese, diced vegetables, cooked meats, herbs</li>
+
+          </ul>
+        </div>
+
+
+        <!-- Instructions -->
+
+        <div class="mt-10 pb-10 border-b border-[#854632]   flex flex-col gap-6 mx-10 lg:mx-0">
+          <strong class="young text-3xl font-medium text-[#854632] ">Instructions</strong>
+          <ol class="text-[#5f574e] list-decimal ml-5 flex text-lg flex-col gap-3">
+            <li>
+              <span class="text-[#784c3e] font-bold text-lg">
+
+                Beat the eggs:
+              </span>
+
+              In a bowl, beat the eggs with a pinch of salt and pepper until they are well mixed.You can
+              add a tablespoon of water or milk for a fluffier texture.
+            </li>
+
+            <li>
+              <span class="text-[#784c3e] font-bold text-lg">
+
+                Heat the pan:
+              </span>
+
+              Place a non-stick frying pan over medium heat and add butter or oil.
+            </li>
+
+            <li>
+              <span class="text-[#784c3e] font-bold text-lg">
+
+                Cook the omelette:
+              </span>
+
+              Once the butter is melted and bubbling, pour in the eggs. Tilt the pan to ensure the
+              eggs evenly coat the surface.
+            </li>
+
+            <li>
+              <span class="text-[#784c3e] font-bold text-lg">
+
+                Add fillings (optional):
+              </span class="text-[#784c3e] font-bold text-lg">
+
+              When the eggs begin to set at the edges but are still slightly runny in the
+              middle, sprinkle your chosen fillings over one half of the omelette.
+            </li>
+
+            <li>
+              <span class="text-[#784c3e] font-bold text-lg">
+
+                Fold and serve:
+              </span>
+
+              As the omelette continues to cook, carefully lift one edge and fold it over the
+              fillings. Let it cook for another minute, then slide it onto a plate.
+            </li>
+
+            <li>
+              <span class="text-[#784c3e] font-bold text-lg">
+
+                Enjoy:
+              </span>
+
+              Serve hot, with additional salt and pepper if needed.
+            </li>
+
+          </ol>
+        </div>
+
+        <!-- Nutrition -->
+
+        <div class="mt-10 pb-10 border-b border-[#854632] flex flex-col gap-6 mx-10 lg:mx-0">
+          <strong class="young text-3xl font-medium text-[#854632] ">Nutrition</strong>
+          <h4 class="mt-5 text-[#5f574e] font-medium text-xl">The table below shows nutritional values per serving
+            without
+            the
+            additional fillings.</h4>
+
+          <div class="my-3">
+            <div class="flex flex-col">
+              <div class="w-full grid font-bold text-xl  border-b border-[#854632] grid-cols-2 pb-2">
+                <span class="ml-16 text-[#5f574e]">Calories</span>
+                <span class="ml-16 text-[#854632]">277kcal</span>
+              </div>
+              <div class="w-full mt-1 grid font-bold text-xl  border-b border-[#854632] grid-cols-2 pb-2">
+                <span class="ml-16 text-[#5f574e]">Carbs</span>
+                <span class="ml-16 text-[#854632]">0g</span>
+              </div>
+              <div class="w-full mt-1 grid font-bold text-xl  border-b border-[#854632] grid-cols-2 pb-2">
+                <span class="ml-16 text-[#5f574e]">Protein</span>
+                <span class="ml-16 text-[#854632]">20g</span>
+              </div>
+              <div class="w-full m-1 grid font-bold text-xl  grid-cols-2 pb-2">
+                <span class="ml-16 text-[#5f574e]">Fat</span>
+                <span class="ml-16 text-[#854632]">22g</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+
+  </section>
+
+
+  <div class="attribution text-xl m-5 font-normal">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Ganesh Tidake</a>.
+  </div>
+</body>
+
+</html>
